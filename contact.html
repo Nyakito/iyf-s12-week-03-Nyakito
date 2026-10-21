@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/iconarchive/cute-ufo/256/Cute-Green-Yellow-2-UFO-icon.png">
+    <title>Contact Form</title>
+</head>
+
+<body class="contact-page">
+
+    <header>
+        <h1>Contact Form</h1>
+        <nav> 
+            <ul class="Nav"> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li> 
+                <li><a href="contact.html" aria-current="page">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <p>
+                        <label for="first-name">First Name:</label>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first-name"
+                            autocomplete="given-name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="last-name">Last Name:</label>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            autocomplete="family-name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            autocomplete="tel"
+                            placeholder="+254 7XX XXX XXX"
+                            required
+                        >
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+
+                    <p>
+                        <label for="subject">Subject:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Website Support</option>
+                            <option value="feedback">Website Feedback</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="8"
+                            cols="50"
+                            minlength="50"
+                            maxlength="500"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <label for="updates">
+                            <input
+                                type="checkbox"
+                                id="updates"
+                                name="updates"
+                                value="yes"
+                            >
+                            Receive updates and newsletters
+                        </label>
+                    </p>
+
+                </fieldset>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+    <section class="dude"> 
+        <h2>Connect With Me</h2> 
+        <ul> 
+            <li> <a href="https://github.com/Nyakito" target="_blank"> GitHub </a> </li> 
+            <li> <a href="https://www.linkedin.com/noah-nyakito" target="_blank"> LinkedIn </a> </li> 
+        </ul> 
+    </section> 
+    <section> 
+        <h2>Location</h2>
+            <p>Nairobi, Kenya</p> 
+            <p>Timezone: East Africa Time (EAT), UTC+3</p>
+    </section>
+</body>
+</html>
