@@ -1,0 +1,4567 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    line-height: 1.6;
+
+    font-size: 16px;
+
+    font-family: "Roboto", sans-serif;
+
+    background-color: rgb(229, 244, 227);
+
+    color: rgb(59, 96, 100);
+
+    margin: 32px 64px;
+
+}
+
+/* Header */
+
+
+
+header {
+
+    padding-bottom: 24px;
+
+    border-bottom: 2px solid rgb(59, 96, 100);
+
+}
+
+
+
+h1 {
+
+    font-size: 3rem;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+/* Navigation */
+
+
+
+.Nav li {
+
+    display: inline;
+
+    list-style: none;
+
+    margin-right: 8px;
+
+}
+
+
+
+.Nav li a {
+
+    display: inline-block;
+
+    padding: 8px 14px;
+
+    border: 2px solid rgb(59, 96, 100);
+
+    border-radius: 8px;
+
+    background-color: rgb(242, 143, 59);
+
+    color: rgb(59, 96, 100);
+
+    text-decoration: none;
+
+    font-weight: 500;
+
+}
+
+
+
+span{
+
+    font-weight: bolder;
+
+}
+
+
+
+.Nav li a:hover {
+
+    background-color: rgb(59, 96, 100);
+
+    color: rgb(242, 143, 59);
+
+}
+
+
+
+.Nav li a:active {
+
+    transform: translateY(2px);
+
+}
+
+
+
+/* Main content */
+
+
+
+main {
+
+    max-width: 800px;
+
+    margin: 48px auto;
+
+}
+
+
+
+section {
+
+    margin-bottom: 48px;
+
+}
+
+
+
+h2 {
+
+    font-size: 2rem;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+p {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+section img {
+
+    display: block;
+
+    width: 300px;
+
+    max-width: 100%;
+
+    margin-top: 24px;
+
+    border-radius: 12px;
+
+}
+
+
+
+/* Hobbies */
+
+
+
+section ul {
+
+    padding-left: 24px;
+
+}
+
+
+
+section li {
+
+    margin-bottom: 8px;
+
+}
+
+
+
+section button{
+
+    font-size: 1.5rem;
+
+    border: 2px rgb(242, 143, 59) solid;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    background: rgb(59, 96, 100);
+
+    color: rgb(242, 143, 59);
+
+}
+
+
+
+textarea{
+
+    border: 1px rgb(59, 96, 100) dashed;
+
+    border-radius: 8px;
+
+    font-size: 1.2rem;
+
+    font-weight: 300;
+
+    padding: 8px 8px;
+
+}
+
+select{
+
+    border: 1.5px rgb(59, 96, 100) solid;
+
+    border-radius: 4px;
+
+    font-size: 1.2rem;
+
+    color: rgb(242, 143, 59);
+
+    background-color: rgb(59, 96, 100);
+
+
+
+}
+
+
+
+a {
+
+    color: rgb(59, 96, 100);
+
+}
+
+
+
+a:hover {
+
+    color: rgb(242, 143, 59);
+
+}
+
+
+
+fieldset{
+
+    margin-bottom: 16px;
+
+    font-size: 1.5rem;
+
+    padding: 16px;
+
+    border-radius: 8px;
+
+}
+
+.dude{
+
+    border-top: 2px rgb(59, 96, 100) solid;
+
+}
+
+
+
+/* Footer */
+
+
+
+footer {
+
+    margin-top: 64px;
+
+    padding-top: 24px;
+
+    border-top: 2px solid rgb(59, 96, 100);
+
+}
+
+
+
+footer h4 {
+
+    margin-bottom: 8px;
+
+}
+
+
+
+footer a {
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* 
+
+   2. FLEXBOX CARD PAGE
+
+   Body class: cards-page
+
+ */
+
+
+
+.cards-page {
+
+    font-family: Arial, sans-serif;
+
+    background-color: papayawhip;
+
+    color: #333;
+
+    padding: 32px;
+
+}
+
+
+
+.cards-page h1 {
+
+    text-align: center;
+
+    margin-bottom: 32px;
+
+}
+
+
+
+.cards-page .card-container {
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: stretch;
+
+    gap: 8px;
+
+}
+
+
+
+.cards-page .card {
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    padding: 24px;
+
+    max-width: 500px;
+
+}
+
+
+
+.cards-page .card h2 {
+
+    margin-bottom: 12px;
+
+    color: #27834a;
+
+}
+
+
+
+.cards-page .card p {
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.cards-page .card a {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: white;
+
+    background-color: #27834a;
+
+    padding: 10px 16px;
+
+    border-radius: 6px;
+
+}
+
+
+
+.cards-page .card a:hover {
+
+    background-color: #185c32;
+
+}
+
+
+
+
+
+.nav-page {
+
+    margin-top: 12px;
+
+    margin-left: 32px;
+
+    background-color: papayawhip;
+
+    color: rgb(58, 147, 58);
+
+    font-family: Cambria, Cochin, Georgia, Times,
+
+                 'Times New Roman', serif;
+
+    line-height: 1.5;
+
+    font-size: 1.5rem;
+
+}
+
+
+
+.nav-page .navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-size: larger;
+
+    margin-left: 16px;
+
+}
+
+
+
+.nav-page .nav-links {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+    margin-right: 64px;
+
+    list-style: none;
+
+}
+
+
+
+.nav-page a {
+
+    text-decoration: none;
+
+}
+
+
+
+.nav-page a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+/* 
+
+   4. FOOTER PAGE
+
+   Body class: footer-page
+
+ */
+
+
+
+/*.footer-page {
+
+    line-height: 1.6;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: aliceblue;
+
+    margin-bottom: 0;
+
+}
+
+
+
+.footer-page .footer {
+
+    margin-top: auto;
+
+    border-top: 2px green solid;
+
+}
+
+
+
+.footer-page .footer-columns {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content:space-between;
+
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.footer-page .footer-bottom {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}*/
+
+/*.footer-page{
+
+    display: flex;
+
+    line-height: 1.6;
+
+    min-height: 100vh;
+
+    background-color: aliceblue;
+
+}
+
+.footer{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    margin-top: auto;
+
+}
+
+.footer-page .footer-columns {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.footer-page .footer-bottom {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+*/
+
+.footer-page {
+
+    line-height: 1.6;
+
+    background-color: aliceblue;
+
+    min-height: 90vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.footer {
+
+    margin-top: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.footer-page .footer-columns {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.footer-page .footer-bottom {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+/*
+
+   5. PHOTO GALLERY PAGE
+
+   Body class: gallery-page */
+
+.gallery-page {
+
+    margin: 32px;
+
+    background-color: rgb(229, 244, 227);
+
+    color: rgb(59, 96, 100);
+
+}
+
+
+
+/* Gallery heading */
+
+.gallery-page header {
+
+    margin-bottom: 32px;
+
+}
+
+
+
+/* Main gallery container */
+
+.gallery-page .gallery {
+
+    display: grid;
+
+
+
+    /* Create three equal-width columns */
+
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+    /* Keep equal spacing between rows and columns */
+
+    gap: 16px;
+
+}
+
+
+
+/* Images fill their grid cells */
+
+.gallery-page .gallery img {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    margin: 0;
+
+}
+
+
+
+/* Tablet: two columns */
+
+@media (max-width: 767px) {
+
+    .gallery-page {
+
+        margin: 20px;
+
+    }
+
+
+
+    .gallery-page .gallery {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 12px;
+
+    }
+
+
+
+    .gallery-page .gallery img {
+
+        height: 180px;
+
+    }
+
+}
+
+
+
+/* Small mobile: one column */
+
+@media (max-width: 480px) {
+
+    .gallery-page {
+
+        margin: 12px;
+
+    }
+
+
+
+    .gallery-page .gallery {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+    .gallery-page .gallery img {
+
+        height: 220px;
+
+    }
+
+}
+
+
+
+/* 
+
+   6. MAGAZINE LAYOUT PAGE
+
+   Body class: magazine-page
+
+ */
+
+
+
+/* Page styling */
+
+.magazine-page {
+
+    margin: 20px;
+
+    background-color: rgb(229, 244, 227);
+
+    color: rgb(59, 96, 100);
+
+}
+
+
+
+/* Main Grid container */
+
+.magazine-page .magazine-layout {
+
+    display: grid;
+
+
+
+    /* Sidebar is narrower than the main content */
+
+    grid-template-columns: 220px 1fr;
+
+
+
+    /* Name each section of the layout */
+
+    grid-template-areas:
+
+        "header header"
+
+        "sidebar main"
+
+        "sidebar main"
+
+        "footer footer";
+
+
+
+    gap: 20px;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+
+
+/* Header spans both columns */
+
+.magazine-page .magazine-header {
+
+    grid-area: header;
+
+    padding: 24px;
+
+    background-color: rgb(59, 96, 100);
+
+    color: white;
+
+    border-radius: 12px;
+
+}
+
+
+
+/* Override the existing global h1 styling */
+
+.magazine-page .magazine-header h1 {
+
+    margin-bottom: 8px;
+
+}
+
+
+
+/* Sidebar occupies the left column */
+
+.magazine-page .magazine-sidebar {
+
+    grid-area: sidebar;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+}
+
+
+
+.magazine-page .magazine-sidebar h2 {
+
+    font-size: 1.4rem;
+
+}
+
+
+
+.magazine-page .magazine-sidebar ul {
+
+    list-style: none;
+
+}
+
+
+
+.magazine-page .magazine-sidebar li {
+
+    margin-bottom: 12px;
+
+}
+
+
+
+.magazine-page .magazine-sidebar a {
+
+    text-decoration: none;
+
+}
+
+
+
+/* Main content occupies the right column */
+
+.magazine-page .magazine-main {
+
+    grid-area: main;
+
+
+
+    /* Override the global main styles */
+
+    max-width: none;
+
+    margin: 0;
+
+    min-width: 0;
+
+}
+
+
+
+.magazine-page .magazine-main article {
+
+    padding: 24px;
+
+    margin-bottom: 20px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+}
+
+
+
+.magazine-page .magazine-main article h2 {
+
+    margin-bottom: 12px;
+
+}
+
+
+
+/* Footer spans both columns */
+
+.magazine-page .magazine-footer {
+
+    grid-area: footer;
+
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: rgb(59, 96, 100);
+
+    color: white;
+
+    border-radius: 12px;
+
+}
+
+
+
+/* Remove the shared stylesheet's footer spacing */
+
+.magazine-page .magazine-footer p {
+
+    margin-bottom: 0;
+
+}
+
+
+
+/* Mobile layout */
+
+@media (max-width: 767px) {
+
+    .magazine-page {
+
+        margin: 12px;
+
+    }
+
+
+
+    .magazine-page .magazine-layout {
+
+        grid-template-columns: 1fr;
+
+
+
+        /* Stack each section vertically */
+
+        grid-template-areas:
+
+            "header"
+
+            "sidebar"
+
+            "main"
+
+            "footer";
+
+
+
+        gap: 12px;
+
+    }
+
+
+
+    .magazine-page .magazine-header,
+
+    .magazine-page .magazine-sidebar,
+
+    .magazine-page .magazine-main article {
+
+        padding: 16px;
+
+    }
+
+
+
+    .magazine-page .magazine-header h1 {
+
+        font-size: 2rem;
+
+    }
+
+}
+
+
+
+/* 
+
+   7. PROJECTS GRID PAGE
+
+   Body class: projects-page
+
+ */
+
+
+
+.projects-page {
+
+    margin: 20px;
+
+}
+
+
+
+/* Projects heading */
+
+.projects-page .projects-header {
+
+    margin-bottom: 32px;
+
+}
+
+
+
+/* Main content overrides shared main styles */
+
+.projects-page .projects-main {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    min-width: 0;
+
+}
+
+
+
+/* Desktop: three equal columns */
+
+.projects-page .projects-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 24px;
+
+}
+
+
+
+/* Each project card */
+
+.projects-page .project-card {
+
+    min-width: 0;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+
+
+    /* Arrange card content vertically */
+
+    display: flex;
+
+    flex-direction: column;
+
+
+
+    /* Smooth hover animation */
+
+    transition: transform 0.3s ease,
+
+                box-shadow 0.3s ease;
+
+}
+
+
+
+/* Responsive project images */
+
+.projects-page .project-card img {
+
+    display: block;
+
+    width: 100%;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+/* Card text */
+
+.projects-page .project-card h2 {
+
+    font-size: 1.4rem;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+.projects-page .project-card p {
+
+    margin-bottom: 16px;
+
+}
+
+
+
+/* Project tags */
+
+.projects-page .project-tags {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.projects-page .project-tags span {
+
+    font-size: 0.85rem;
+
+    padding: 4px 10px;
+
+    background-color: rgb(229, 244, 227);
+
+    border-radius: 6px;
+
+}
+
+
+
+/* Project link */
+
+.projects-page .project-card a {
+
+    display: inline-block;
+
+    align-self: flex-start;
+
+    margin-top: auto;
+
+    padding: 10px 14px;
+
+    border-radius: 6px;
+
+    background-color: rgb(59, 96, 100);
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+
+.projects-page .project-card a:hover {
+
+    background-color: rgb(38, 67, 70);
+
+}
+
+
+
+/* Card hover effect */
+
+.projects-page .project-card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+/* Tablet: two columns */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .projects-page .projects-grid {
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+
+}
+
+
+
+/* Mobile: one column */
+
+@media (max-width: 767px) {
+
+    .projects-page {
+
+        margin: 12px;
+
+    }
+
+
+
+    .projects-page .projects-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 16px;
+
+    }
+
+}
+
+
+
+/* 
+
+   8. PORTFOLIO RESPONSIVE DESIGN
+
+   Mobile-first approach
+
+ */
+
+
+
+/* -----------------------------------------
+
+   BASE STYLES: MOBILE FIRST
+
+   Default styles apply to small screens
+
+\----------------------------------------- */
+
+
+
+.portfolio-page {
+
+    margin: 0;
+
+    padding: 16px;
+
+    font-size: 16px;
+
+}
+
+
+
+/* Responsive headings */
+
+.portfolio-page h1 {
+
+    font-size: 2rem;
+
+    line-height: 1.2;
+
+}
+
+
+
+.portfolio-page h2 {
+
+    font-size: 1.5rem;
+
+}
+
+
+
+/* Header */
+
+.portfolio-page header {
+
+    padding-bottom: 16px;
+
+}
+
+
+
+/* Prevent content from overflowing */
+
+.portfolio-page main,
+
+.portfolio-page section,
+
+.portfolio-page img {
+
+    max-width: 100%;
+
+}
+
+
+
+.portfolio-page main {
+
+    width: 100%;
+
+    margin: 24px auto;
+
+}
+
+
+
+.portfolio-page section img {
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+
+
+/* -----------------------------------------
+
+   NAVIGATION: MOBILE
+
+\----------------------------------------- */
+
+
+
+/* Hide the actual checkbox */
+
+.portfolio-page .menu-toggle {
+
+    position: absolute;
+
+    width: 1px;
+
+    height: 1px;
+
+    opacity: 0;
+
+}
+
+
+
+/* Hamburger icon */
+
+.portfolio-page .menu-icon {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+    width: 40px;
+
+    padding: 8px;
+
+    cursor: pointer;
+
+    border-radius: 6px;
+
+}
+
+
+
+/* Three hamburger lines */
+
+.portfolio-page .menu-icon span {
+
+    display: block;
+
+    width: 24px;
+
+    height: 3px;
+
+    background-color: rgb(59, 96, 100);
+
+    border-radius: 3px;
+
+}
+
+
+
+/* Visible keyboard focus for the hamburger */
+
+.portfolio-page .menu-toggle:focus-visible
+
++ .menu-icon {
+
+    outline: 2px solid rgb(59, 96, 100);
+
+    outline-offset: 3px;
+
+}
+
+
+
+/* Navigation links are hidden initially */
+
+.portfolio-page .Nav .nav-links {
+
+    display: none;
+
+    list-style: none;
+
+    margin: 12px 0 0;
+
+    padding: 0;
+
+}
+
+
+
+/* Show links when the checkbox is checked */
+
+.portfolio-page .menu-toggle:checked
+
+~ .nav-links {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+
+
+/* Make links fit the mobile menu */
+
+.portfolio-page .Nav .nav-links li {
+
+    display: block;
+
+    margin: 0;
+
+}
+
+
+
+.portfolio-page .Nav .nav-links li a {
+
+    display: block;
+
+    width: 100%;
+
+}
+
+
+
+/* -----------------------------------------
+
+   HOME PAGE: MOBILE
+
+\----------------------------------------- */
+
+
+
+/* Single-column hero layout */
+
+.portfolio-page .hero {
+
+    display: grid;
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 24px;
+
+    align-items: center;
+
+}
+
+
+
+/* Hero image */
+
+.portfolio-page .hero-image {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 100%;
+
+    height: auto;
+
+    border-radius: 12px;
+
+    margin: 0;
+
+    object-fit: cover;
+
+}
+
+
+
+/* Hero text */
+
+.portfolio-page .hero-content {
+
+    min-width: 0;
+
+}
+
+
+
+/* -----------------------------------------
+
+   PROJECTS PAGE: MOBILE
+
+\----------------------------------------- */
+
+
+
+.projects-page, .projects2-page{
+
+    margin: 12px;
+
+    padding: 0;
+
+}
+
+
+
+.projects-page .projects-grid, .projects2-page .projects-grid{
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 16px;
+
+}
+
+
+
+.projects-page .project-card img, .projects2-page .project-card img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    aspect-ratio: 3 / 2;
+
+    object-fit: cover;
+
+}
+
+
+
+/* -----------------------------------------
+
+   CONTACT PAGE: MOBILE
+
+\----------------------------------------- */
+
+
+
+/* Form and sidebar stack vertically */
+
+.contact-page .contact-layout {
+
+    display: grid;
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 24px;
+
+}
+
+
+
+/* Prevent form fields from overflowing */
+
+.contact-page input,
+
+.contact-page textarea,
+
+.contact-page select {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    min-width: 0;
+
+}
+
+
+
+/* -----------------------------------------
+
+   FOOTER: MOBILE
+
+\----------------------------------------- */
+
+
+
+.footer-page {
+
+    margin: 0;
+
+    padding: 16px;
+
+    min-height: 90vh;
+
+}
+
+
+
+.footer-page .footer-columns {
+
+    display: grid;
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 20px;
+
+}
+
+
+
+.footer-page .footer-bottom {
+
+    text-align: center;
+
+    padding-top: 16px;
+
+}
+
+
+
+/* -----------------------------------------
+
+   GENERAL INTERACTION & ACCESSIBILITY
+
+\----------------------------------------- */
+
+
+
+/* Responsive images */
+
+.portfolio-page img,
+
+.projects-page img,
+
+.contact-page img {
+
+    max-width: 100%;
+
+}
+
+
+
+/* Consistent keyboard focus */
+
+.portfolio-page a:focus-visible,
+
+.portfolio-page button:focus-visible,
+
+.projects-page a:focus-visible,
+
+.contact-page a:focus-visible,
+
+.contact-page button:focus-visible {
+
+    outline: 2px solid rgb(59, 96, 100);
+
+    outline-offset: 3px;
+
+}
+
+
+
+/* Respect users who prefer reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .portfolio-page *,
+
+    .projects-page * {
+
+        scroll-behavior: auto;
+
+        transition: none;
+
+        animation: none;
+
+    }
+
+}
+
+
+
+/* 
+
+   TABLET: 768px AND ABOVE
+
+ */
+
+
+
+@media (min-width: 768px) {
+
+
+
+    .portfolio-page {
+
+        padding: 24px 32px;
+
+    }
+
+
+
+    .portfolio-page h1 {
+
+        font-size: 2.5rem;
+
+    }
+
+
+
+    /* Replace hamburger with horizontal navigation */
+
+    .portfolio-page .menu-icon {
+
+        display: none;
+
+    }
+
+
+
+    .portfolio-page .Nav .nav-links,
+
+    .portfolio-page .menu-toggle:checked
+
+    ~ .nav-links {
+
+        display: flex;
+
+        flex-direction: row;
+
+        flex-wrap: wrap;
+
+        align-items: center;
+
+        gap: 8px;
+
+        margin-top: 16px;
+
+    }
+
+
+
+    .portfolio-page .Nav .nav-links li a {
+
+        width: auto;
+
+    }
+
+
+
+    /* Two-column projects */
+
+    .projects-page .projects-grid,  .projects2-page .projects-grid{
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+
+
+
+    /* Two-column footer */
+
+    .footer-page .footer-columns {
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+
+
+
+    /* Contact form and sidebar side by side */
+
+    .contact-page .contact-layout {
+
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+
+        align-items: start;
+
+    }
+
+}
+
+
+
+/* 
+
+   DESKTOP: 1024px AND ABOVE
+
+ */
+
+
+
+@media (min-width: 1024px) {
+
+
+
+    .portfolio-page {
+
+        padding: 32px 48px;
+
+    }
+
+
+
+    /* Hero text and image side by side */
+
+    .portfolio-page .hero {
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 40px;
+
+    }
+
+
+
+    .portfolio-page .hero-image {
+
+        max-width: 100%;
+
+    }
+
+
+
+    .portfolio-page main {
+
+        max-width: 1200px;
+
+    }
+
+
+
+    /* Three-column project grid */
+
+    .projects-page .projects-grid, .projects2-page .projects-grid{
+
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    }
+
+
+
+    /* Four-column footer */
+
+    .footer-page .footer-columns {
+
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    }
+
+}
+
+
+
+/* 
+
+   LARGE DESKTOP: 1280px AND ABOVE
+
+ */
+
+
+
+@media (min-width: 1280px) {
+
+
+
+    .portfolio-page {
+
+        padding-left: 64px;
+
+        padding-right: 64px;
+
+    }
+
+
+
+    .portfolio-page main,
+
+    .projects-page .projects-main {
+
+        max-width: 1200px;
+
+    }
+
+
+
+    .portfolio-page .hero {
+
+        gap: 56px;
+
+    }
+
+
+
+    .projects-page .projects-grid, .projects2-page .projects-grid {
+
+        gap: 28px;
+
+    }
+
+}
+
+
+
+/* 
+
+   9. POLISH & REFINEMENT
+
+ */
+
+
+
+/* Smooth hover transitions */
+
+.portfolio-page button,
+
+.portfolio-page .button,
+
+.portfolio-page .Nav li a,
+
+.projects-page .project-card,
+
+.projects-page .project-card a {
+
+    transition: transform 0.3s ease,
+
+                box-shadow 0.3s ease,
+
+                background-color 0.3s ease,
+
+                color 0.3s ease;
+
+}
+
+
+
+/* Button hover */
+
+.portfolio-page button:hover,
+
+.portfolio-page .button:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+/* Disabled buttons should not move */
+
+.portfolio-page button:disabled {
+
+    opacity: 0.5;
+
+    cursor: not-allowed;
+
+    transform: none;
+
+    box-shadow: none;
+
+}
+
+
+
+/* Consistent accessible focus */
+
+.portfolio-page a:focus-visible,
+
+.portfolio-page button:focus-visible,
+
+.portfolio-page input:focus-visible,
+
+.portfolio-page textarea:focus-visible,
+
+.portfolio-page select:focus-visible {
+
+    outline: 2px solid rgb(59, 96, 100);
+
+    outline-offset: 3px;
+
+}
+
+
+
+/* Images stay within their containers */
+
+.portfolio-page img {
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+
+
+/* 
+
+   BUTTON STYLE CHALLENGE
+
+ */
+
+
+
+/* Shared button appearance */
+
+.portfolio-page .btn {
+
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    border: 2px solid transparent;
+
+    border-radius: 8px;
+
+    font: inherit;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease,
+
+                box-shadow 0.2s ease,
+
+                background-color 0.2s ease;
+
+}
+
+
+
+/* Primary button */
+
+.portfolio-page .btn-primary {
+
+    background-color: rgb(59, 96, 100);
+
+    color: white;
+
+}
+
+
+
+/* Secondary button */
+
+.portfolio-page .btn-secondary {
+
+    background-color: transparent;
+
+    border-color: rgb(59, 96, 100);
+
+    color: rgb(59, 96, 100);
+
+}
+
+
+
+/* Danger button */
+
+.portfolio-page .btn-danger {
+
+    background-color: #b42318;
+
+    color: white;
+
+}
+
+
+
+/* Disabled button */
+
+.portfolio-page .btn:disabled {
+
+    background-color: #d1d5db;
+
+    border-color: #d1d5db;
+
+    color: #6b7280;
+
+    cursor: not-allowed;
+
+    opacity: 0.8;
+
+}
+
+
+
+/* Button hover */
+
+.portfolio-page .btn:not(:disabled):hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+/* Respect reduced-motion preferences */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .portfolio-page *,
+
+    .projects-page * {
+
+        transition-duration: 0.01ms !important;
+
+        animation-duration: 0.01ms !important;
+
+        scroll-behavior: auto !important;
+
+    }
+
+}
+
+
+
+/* 
+
+   DAY 2: CARD COMPONENT
+
+   All styles are scoped to this exercise.
+
+    */
+
+
+
+
+
+/* ----- 1. Page setup ----- */
+
+
+
+.card-component-page {
+
+    /* Override the global body margins for this page */
+
+    margin: 0;
+
+    padding: 32px;
+
+
+
+    /* Use the existing color palette */
+
+    background-color: rgb(229, 244, 227);
+
+    color: rgb(59, 96, 100);
+
+}
+
+
+
+
+
+/* ----- 2. Page heading ----- */
+
+
+
+.card-component-page .cards-header {
+
+    text-align: center;
+
+    margin-bottom: 32px;
+
+    padding-bottom: 20px;
+
+}
+
+
+
+.card-component-page .cards-header h1 {
+
+    font-size: 2.5rem;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+.card-component-page .cards-header p {
+
+    margin-bottom: 0;
+
+}
+
+
+
+
+
+/* ----- 3. Cards grid ----- */
+
+
+
+.card-component-page .project-cards {
+
+    display: grid;
+
+
+
+    /* Three equal-width columns on larger screens */
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+
+
+    /* Equal spacing between cards */
+
+    gap: 24px;
+
+
+
+    /* Prevent the cards from becoming excessively wide */
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+
+
+
+
+/* ----- 4. Individual card ----- */
+
+
+
+.card-component-page .project-card {
+
+    /* Stack the image and content vertically */
+
+    display: flex;
+
+    flex-direction: column;
+
+
+
+    /* Hide anything that extends beyond rounded corners */
+
+    overflow: hidden;
+
+
+
+    /* Card appearance */
+
+    background-color: white;
+
+    border-radius: 12px;
+
+
+
+    /* Subtle shadow around each card */
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+
+
+    /* Smooth hover animation */
+
+    transition: transform 0.25s ease,
+
+                box-shadow 0.25s ease;
+
+}
+
+
+
+
+
+/* ----- 5. Card hover effect ----- */
+
+
+
+.card-component-page .project-card:hover {
+
+    /* Lift the card slightly when the pointer is over it */
+
+    transform: translateY(-6px);
+
+
+
+    /* Make the shadow more noticeable */
+
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+
+
+/* ----- 6. Card image ----- */
+
+
+
+.card-component-page .project-card .card-image {
+
+    display: block;
+
+
+
+    /* Fill the card's available width */
+
+    width: 100%;
+
+    max-width: none;
+
+
+
+    /* Give every image the same height */
+
+    height: 200px;
+
+
+
+    /* Crop images neatly without stretching them */
+
+    object-fit: cover;
+
+
+
+    /* Remove inherited margins from the global image rule */
+
+    margin: 0;
+
+
+
+    /* The card itself controls the rounded top corners */
+
+    border-radius: 0;
+
+}
+
+
+
+
+
+/* ----- 7. Card content ----- */
+
+
+
+.card-component-page .card-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+
+
+    /* Make the content fill the remaining card height */
+
+    flex: 1;
+
+
+
+    padding: 20px;
+
+}
+
+
+
+
+
+/* ----- 8. Card title ----- */
+
+
+
+.card-component-page .card-content h2 {
+
+    font-size: 1.4rem;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+
+
+/* ----- 9. Card description ----- */
+
+
+
+.card-component-page .card-content p {
+
+    font-size: 1rem;
+
+    line-height: 1.6;
+
+
+
+    /* Space between the description and the tags */
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+/* ----- 10. Technology tags ----- */
+
+
+
+.card-component-page .card-tags {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+
+
+    /* Space between tags horizontally and vertically */
+
+    gap: 8px;
+
+
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.card-component-page .card-tag {
+
+    display: inline-block;
+
+
+
+    padding: 5px 10px;
+
+
+
+    /* Pill-shaped tags */
+
+    border-radius: 20px;
+
+
+
+    background-color: rgb(229, 244, 227);
+
+    color: rgb(59, 96, 100);
+
+
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+
+}
+
+
+
+
+
+/* ----- 11. Card button ----- */
+
+
+
+.card-component-page .card-button {
+
+    display: inline-block;
+
+    align-self: flex-start;
+
+
+
+    padding: 10px 16px;
+
+
+
+    border: 2px solid rgb(59, 96, 100);
+
+    border-radius: 8px;
+
+
+
+    background-color: rgb(59, 96, 100);
+
+    color: white;
+
+
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    text-align: center;
+
+
+
+    /* Smooth color and position changes */
+
+    transition: background-color 0.2s ease,
+
+                color 0.2s ease,
+
+                transform 0.2s ease;
+
+
+
+    /* Keep the button at the bottom of cards with different text lengths */
+
+    margin-top: auto;
+
+}
+
+
+
+
+
+/* ----- 12. Button hover effect ----- */
+
+
+
+.card-component-page .card-button:hover {
+
+    background-color: rgb(242, 143, 59);
+
+    color: rgb(59, 96, 100);
+
+
+
+    transform: translateY(-2px);
+
+}
+
+
+
+
+
+/* ----- 13. Keyboard accessibility ----- */
+
+
+
+.card-component-page .card-button:focus-visible {
+
+    outline: 3px solid rgb(242, 143, 59);
+
+    outline-offset: 4px;
+
+}
+
+
+
+
+
+/* 
+
+   RESPONSIVE DESIGN
+
+    */
+
+
+
+
+
+/* ----- Tablet: two columns ----- */
+
+
+
+@media (max-width: 1023px) {
+
+    .card-component-page {
+
+        padding: 24px;
+
+    }
+
+
+
+    .card-component-page .project-cards {
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+
+}
+
+
+
+
+
+/* ----- Mobile: one column ----- */
+
+
+
+@media (max-width: 600px) {
+
+    .card-component-page {
+
+        padding: 16px;
+
+    }
+
+
+
+    .card-component-page .cards-header h1 {
+
+        font-size: 2rem;
+
+    }
+
+
+
+    .card-component-page .project-cards {
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+    }
+
+
+
+    .card-component-page .project-card .card-image {
+
+        height: 220px;
+
+    }
+
+}
+
+
+
+
+
+/* ----- Respect reduced-motion preferences ----- */
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .card-component-page .project-card,
+
+    .card-component-page .card-button {
+
+        transition: none;
+
+    }
+
+
+
+    .card-component-page .project-card:hover,
+
+    .card-component-page .card-button:hover {
+
+        transform: none;
+
+    }
+
+}
+
+
+
+/* 
+
+   DAY 3: HERO SECTION
+
+   These styles apply only to hero-section.html.
+
+    */
+
+
+
+
+
+/* ----- 1. Page setup ----- */
+
+
+
+.hero-section-page {
+
+    /* Remove the margins from the global body rule */
+
+    margin: 0;
+
+    padding: 0;
+
+
+
+    /* Prevent a horizontal scrollbar caused by page width */
+
+    overflow-x: hidden;
+
+
+
+    /* Use a simple font stack for this exercise */
+
+    font-family: Arial, sans-serif;
+
+
+
+    background-color: #f5f5f5;
+
+    color: white;
+
+}
+
+
+
+
+
+/* ----- 2. Full-screen hero section ----- */
+
+
+
+.hero-section-page .hero {
+
+    /* Make the hero at least as tall as the browser window */
+
+    min-height: 100vh;
+
+
+
+    /* Center the content horizontally and vertically */
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+    /* Add breathing room around the text on small screens */
+
+    padding: 40px 24px;
+
+
+
+    /* Background image and fallback color */
+
+    background-color: #243b40;
+
+    background-image: url("https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2000&q=85");
+
+
+
+    /* Keep the image centered and fill the entire hero */
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+
+
+    /* Creates a positioning reference for the overlay */
+
+    position: relative;
+
+
+
+    /* Keep the overlay and content inside the hero */
+
+    isolation: isolate;
+
+}
+
+
+
+
+
+/* ----- 3. Dark overlay ----- */
+
+
+
+.hero-section-page .hero::before {
+
+    /* Required for a pseudo-element to appear */
+
+    content: "";
+
+
+
+    /* Cover the entire hero section */
+
+    position: absolute;
+
+    inset: 0;
+
+
+
+    /* Darkens the image so the white text is readable */
+
+    background: linear-gradient(
+
+        rgba(0, 0, 0, 0.65),
+
+        rgba(0, 0, 0, 0.45)
+
+    );
+
+
+
+    /* Place the overlay behind the text */
+
+    z-index: -1;
+
+}
+
+
+
+
+
+/* ----- 4. Hero content ----- */
+
+
+
+.hero-section-page .hero-content {
+
+    /* Keep text above the overlay */
+
+    position: relative;
+
+    z-index: 1;
+
+
+
+    /* Prevent lines from becoming too wide */
+
+    max-width: 800px;
+
+
+
+    /* Center all text and the button */
+
+    text-align: center;
+
+
+
+    /* Make the content fit small screens */
+
+    width: 100%;
+
+}
+
+
+
+
+
+/* ----- 5. Small introductory label ----- */
+
+
+
+.hero-section-page .hero-eyebrow {
+
+    font-size: 0.85rem;
+
+    font-weight: 700;
+
+
+
+    /* Add space between letters */
+
+    letter-spacing: 3px;
+
+
+
+    color: #f7b267;
+
+
+
+    /* Space below the label */
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+/* ----- 6. Main heading ----- */
+
+
+
+.hero-section-page .hero-content h1 {
+
+    /* Use a responsive font size */
+
+    font-size: clamp(2.5rem, 7vw, 5rem);
+
+
+
+    /* Keep the heading compact */
+
+    line-height: 1.1;
+
+
+
+    /* Space below the heading */
+
+    margin-bottom: 24px;
+
+
+
+    font-weight: 800;
+
+}
+
+
+
+
+
+/* ----- 7. Highlighted heading text ----- */
+
+
+
+.hero-section-page .hero-highlight {
+
+    /* Put the highlighted word on a new line */
+
+    display: block;
+
+
+
+    /* Use the accent color */
+
+    color: #f7b267;
+
+}
+
+
+
+
+
+/* ----- 8. Description ----- */
+
+
+
+.hero-section-page .hero-description {
+
+    /* Limit the width for readability */
+
+    max-width: 600px;
+
+
+
+    /* Center the paragraph */
+
+    margin: 0 auto 32px;
+
+
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+
+
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+
+
+
+
+/* ----- 9. Call-to-action button ----- */
+
+
+
+.hero-section-page .hero-button {
+
+    /* Make the link look like a button */
+
+    display: inline-block;
+
+
+
+    padding: 14px 28px;
+
+
+
+    background-color: #f7b267;
+
+    color: #222222;
+
+
+
+    border: 2px solid #f7b267;
+
+    border-radius: 8px;
+
+
+
+    font-size: 1rem;
+
+    font-weight: 700;
+
+
+
+    text-decoration: none;
+
+
+
+    /* Smooth hover animation */
+
+    transition:
+
+        background-color 0.25s ease,
+
+        color 0.25s ease,
+
+        transform 0.25s ease,
+
+        box-shadow 0.25s ease;
+
+}
+
+
+
+
+
+/* ----- 10. Button hover effect ----- */
+
+
+
+.hero-section-page .hero-button:hover {
+
+    background-color: transparent;
+
+    color: white;
+
+
+
+    /* Move the button slightly upward */
+
+    transform: translateY(-3px);
+
+
+
+    /* Add a subtle shadow */
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+/* ----- 11. Keyboard focus ----- */
+
+
+
+.hero-section-page .hero-button:focus-visible {
+
+    outline: 3px solid white;
+
+    outline-offset: 5px;
+
+}
+
+
+
+
+
+.hero-section-page .hero-more {
+
+    /* Give the section room to breathe */
+
+    padding: 64px 24px;
+
+
+
+    /* Center the section's content */
+
+    text-align: center;
+
+
+
+    /* Use a light background to contrast with the hero */
+
+    background-color: rgb(229, 244, 227);
+
+    color: rgb(59, 96, 100);
+
+}
+
+
+
+.hero-section-page .hero-more h2 {
+
+    font-size: 2rem;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+.hero-section-page .hero-more p {
+
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    line-height: 1.8;
+
+}
+
+
+
+
+
+/* 
+
+   RESPONSIVE DESIGN
+
+    */
+
+
+
+
+
+/* ----- Small phones ----- */
+
+
+
+@media (max-width: 480px) {
+
+    .hero-section-page .hero {
+
+        /* Keep enough room around the content */
+
+        padding: 32px 18px;
+
+
+
+        /* Maintain a strong background focal point */
+
+        background-position: center;
+
+    }
+
+
+
+    .hero-section-page .hero-eyebrow {
+
+        font-size: 0.7rem;
+
+        letter-spacing: 2px;
+
+    }
+
+
+
+    .hero-section-page .hero-content h1 {
+
+        font-size: clamp(2.2rem, 10vw, 3rem);
+
+    }
+
+
+
+    .hero-section-page .hero-description {
+
+        font-size: 1rem;
+
+    }
+
+
+
+    .hero-section-page .hero-button {
+
+        /* Make the button easier to tap on a phone */
+
+        padding: 13px 22px;
+
+    }
+
+}
+
+
+
+
+
+/* ----- Respect reduced-motion preferences ----- */
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hero-section-page .hero-button {
+
+        transition: none;
+
+    }
+
+
+
+    .hero-section-page .hero-button:hover {
+
+        transform: none;
+
+    }
+
+}
+
+/* Override global layout rules for Day 3 */
+
+
+
+.hero-section-page main {
+
+    max-width: none;
+
+    margin: 0;
+
+}
+
+
+
+.hero-section-page section {
+
+    margin-bottom: 0;
+
+}
+
+
+
+/* =========================
+
+   1. PAGE SETUP
+
+   \========================= */
+
+
+
+.lesson3-page {
+
+    /* Override the global body margin */
+
+    margin: 0;
+
+    padding: 50px;
+
+
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+
+
+    background-color: rgb(229, 244, 227);
+
+    color: rgb(38, 54, 56);
+
+}
+
+
+
+
+
+/* =========================
+
+   2. MAIN TITLE
+
+   \========================= */
+
+
+
+.lesson3-page .lesson3-title {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+
+
+    font-size: 3rem;
+
+    color: rgb(41, 69, 72);
+
+}
+
+
+
+
+
+/* =========================
+
+   3. SECTION HEADINGS
+
+   \========================= */
+
+
+
+.lesson3-page .lesson3-section-title {
+
+    margin-bottom: 20px;
+
+
+
+    font-size: 1.75rem;
+
+    color: rgb(41, 69, 72);
+
+}
+
+
+
+
+
+/* =========================
+
+   4. BOX MODEL VISUALIZATION
+
+   \========================= */
+
+
+
+/* Represents the outer margin area */
+
+.lesson3-page .lesson3-visual-margin {
+
+    background-color: lightblue;
+
+
+
+    padding: 30px;
+
+    max-width: 500px;
+
+
+
+    margin: 0 auto 50px;
+
+    text-align: center;
+
+}
+
+
+
+/* Represents the border layer */
+
+.lesson3-page .lesson3-visual-border {
+
+    border: 5px solid #333;
+
+    padding: 0;
+
+}
+
+
+
+/* Represents the padding layer */
+
+.lesson3-page .lesson3-visual-padding {
+
+    background-color: lightgreen;
+
+    padding: 30px;
+
+}
+
+
+
+/* Represents the innermost content */
+
+.lesson3-page .lesson3-visual-content {
+
+    background-color: white;
+
+    padding: 40px;
+
+
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* =========================
+
+   5. CODE DISPLAY FIELDSETS
+
+   \========================= */
+
+
+
+.lesson3-page .lesson3-code-fieldset {
+
+    /* Center the fieldset */
+
+    margin: 40px auto;
+
+    padding: 25px;
+
+
+
+    max-width: 800px;
+
+
+
+    border: 2px solid rgb(59, 96, 100);
+
+    border-radius: 10px;
+
+
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+
+
+    /* Prevent the fieldset from exceeding its container */
+
+    min-width: 0;
+
+}
+
+
+
+/* Style the fieldset's title */
+
+.lesson3-page .lesson3-code-fieldset legend {
+
+    padding: 0 10px;
+
+
+
+    font-size: 1.25rem;
+
+    font-weight: bold;
+
+
+
+    color: rgb(41, 69, 72);
+
+}
+
+
+
+/* Style the code blocks */
+
+.lesson3-page .lesson3-code-fieldset pre {
+
+    text-align: left;
+
+
+
+    background-color: rgb(38, 54, 56);
+
+    color: white;
+
+
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+
+
+    /* Allow long code lines to scroll horizontally */
+
+    overflow-x: auto;
+
+
+
+    font-family: monospace;
+
+    font-size: 0.95rem;
+
+    line-height: 1.5;
+
+}
+
+
+
+/* Keep code text formatted as code */
+
+.lesson3-page .lesson3-code-fieldset code {
+
+    font-family: monospace;
+
+}
+
+
+
+
+
+/* 
+
+   6. CARD COMPONENT
+
+    */
+
+
+
+.lesson3-page .lesson3-card {
+
+    /* Keep the card at the specified width */
+
+    width: 300px;
+
+    max-width: 100%;
+
+
+
+    padding: 20px;
+
+    border: 1px solid gray;
+
+
+
+    /* Include padding and border within the width */
+
+    box-sizing: border-box;
+
+
+
+    background-color: white;
+
+
+
+    margin: 40px auto;
+
+
+
+    /* Prevent content from escaping rounded edges */
+
+    overflow: hidden;
+
+
+
+    border-radius: 8px;
+
+
+
+    /* Subtle card shadow */
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+
+
+    /* Smooth hover animation */
+
+    transition: transform 0.25s ease,
+
+                box-shadow 0.25s ease;
+
+}
+
+
+
+/* Lift the card slightly when hovered */
+
+.lesson3-page .lesson3-card:hover {
+
+    transform: translateY(-4px);
+
+
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.14);
+
+}
+
+
+
+
+
+/* Card image */
+
+.lesson3-page .lesson3-card-image {
+
+    display: block;
+
+
+
+    width: 100%;
+
+    max-width: none;
+
+
+
+    /* Preserve the image's proportions */
+
+    height: auto;
+
+
+
+    margin: 0 0 20px;
+
+
+
+    border-radius: 0;
+
+}
+
+
+
+
+
+/* Card content */
+
+.lesson3-page .lesson3-card-content {
+
+    padding: 0;
+
+}
+
+
+
+/* Card title */
+
+.lesson3-page .lesson3-card-content h2 {
+
+    margin-bottom: 15px;
+
+
+
+    font-size: 1.5rem;
+
+    color: rgb(41, 69, 72);
+
+}
+
+
+
+/* Card description */
+
+.lesson3-page .lesson3-card-content p {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* Card button */
+
+.lesson3-page .lesson3-card-content button {
+
+    padding: 8px 16px;
+
+
+
+    border: none;
+
+    border-radius: 4px;
+
+
+
+    cursor: pointer;
+
+
+
+    background-color: rgb(59, 96, 100);
+
+    color: white;
+
+
+
+    font: inherit;
+
+
+
+    transition: background-color 0.2s ease,
+
+                transform 0.2s ease;
+
+}
+
+
+
+/* Button hover state */
+
+.lesson3-page .lesson3-card-content button:hover {
+
+    background-color: rgb(41, 69, 72);
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* Keyboard accessibility */
+
+.lesson3-page .lesson3-card-content button:focus-visible {
+
+    outline: 3px solid rgb(242, 143, 59);
+
+    outline-offset: 3px;
+
+}
+
+
+
+
+
+/* 
+
+   7. TYPOGRAPHY DEMONSTRATION
+
+    */
+
+
+
+.lesson3-page .lesson3-typography-demo {
+
+    max-width: 800px;
+
+
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+
+
+    background-color: white;
+
+    border-radius: 10px;
+
+}
+
+
+
+/* Large heading */
+
+.lesson3-page .lesson3-typography-demo h2 {
+
+    font-size: 3rem;
+
+    margin-bottom: 16px;
+
+}
+
+
+
+/* Medium heading */
+
+.lesson3-page .lesson3-typography-demo h3 {
+
+    font-size: 2rem;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+/* Regular paragraph */
+
+.lesson3-page .lesson3-typography-demo p {
+
+    font-size: 1rem;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+/* Smaller supporting text */
+
+.lesson3-page .lesson3-typography-demo small {
+
+    display: block;
+
+
+
+    font-size: 0.875rem;
+
+    color: rgb(107, 124, 126);
+
+}
+
+
+
+
+
+/* 
+
+   8. RESPONSIVE DESIGN
+
+    */
+
+
+
+/* Tablets and smaller screens */
+
+@media (max-width: 768px) {
+
+    .lesson3-page {
+
+        padding: 30px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-title {
+
+        font-size: 2.5rem;
+
+    }
+
+
+
+    .lesson3-page .lesson3-section-title {
+
+        font-size: 1.5rem;
+
+    }
+
+
+
+    .lesson3-page .lesson3-typography-demo h2 {
+
+        font-size: 2.25rem;
+
+    }
+
+
+
+    .lesson3-page .lesson3-typography-demo h3 {
+
+        font-size: 1.75rem;
+
+    }
+
+}
+
+
+
+
+
+/* Mobile phones */
+
+@media (max-width: 480px) {
+
+    .lesson3-page {
+
+        padding: 16px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-title {
+
+        font-size: 2rem;
+
+        margin-bottom: 28px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-section-title {
+
+        font-size: 1.3rem;
+
+    }
+
+
+
+    .lesson3-page .lesson3-visual-margin {
+
+        padding: 15px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-visual-padding {
+
+        padding: 15px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-visual-content {
+
+        padding: 20px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-code-fieldset {
+
+        padding: 12px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-code-fieldset pre {
+
+        padding: 12px;
+
+        font-size: 0.8rem;
+
+    }
+
+
+
+    .lesson3-page .lesson3-card {
+
+        width: 100%;
+
+    }
+
+
+
+    .lesson3-page .lesson3-typography-demo {
+
+        padding: 16px;
+
+    }
+
+
+
+    .lesson3-page .lesson3-typography-demo h2 {
+
+        font-size: 1.8rem;
+
+    }
+
+
+
+    .lesson3-page .lesson3-typography-demo h3 {
+
+        font-size: 1.5rem;
+
+    }
+
+}
+
+
+
+
+
+/* 
+
+   9. REDUCED MOTION
+
+    */
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .lesson3-page .lesson3-card,
+
+    .lesson3-page .lesson3-card-content button {
+
+        transition: none;
+
+    }
+
+
+
+    .lesson3-page .lesson3-card:hover,
+
+    .lesson3-page .lesson3-card-content button:hover {
+
+        transform: none;
+
+    }
+
+}
+
+/* =========================================================
+   DAY 4: FORM STYLING
+   Body class: form-styling-page
+   All selectors are scoped to this exercise.
+   ========================================================= */
+
+.form-styling-page {
+    margin: 0;
+    padding: 32px 20px;
+    min-height: 100vh;
+    background-color: rgb(229, 244, 227);
+    color: rgb(59, 96, 100);
+}
+
+.form-styling-page .form-wrapper {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border: 1px solid rgba(59, 96, 100, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 10px 28px rgba(59, 96, 100, 0.10);
+}
+
+.form-styling-page .form-header {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(59, 96, 100, 0.20);
+}
+
+.form-styling-page .form-header h1 {
+    margin-bottom: 8px;
+    font-size: clamp(2rem, 5vw, 2.7rem);
+    line-height: 1.2;
+}
+
+.form-styling-page .form-header p {
+    margin-bottom: 0;
+}
+
+.form-styling-page .contact-form {
+    display: grid;
+    gap: 20px;
+}
+
+.form-styling-page .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-width: 0;
+}
+
+.form-styling-page .form-field label {
+    font-weight: 700;
+    color: rgb(59, 96, 100);
+}
+
+.form-styling-page .form-field input,
+.form-styling-page .form-field textarea,
+.form-styling-page .form-field select {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 12px 14px;
+    border: 1.5px solid #b8c9c7;
+    border-radius: 8px;
+    background-color: #fbfdfb;
+    color: #263f42;
+    font: inherit;
+    line-height: 1.5;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease,
+                background-color 0.2s ease;
+}
+
+.form-styling-page .form-field textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-styling-page .form-field input::placeholder,
+.form-styling-page .form-field textarea::placeholder {
+    color: #718482;
+    opacity: 1;
+}
+
+.form-styling-page .form-field input:focus,
+.form-styling-page .form-field textarea:focus,
+.form-styling-page .form-field select:focus {
+    outline: none;
+    border-color: rgb(59, 96, 100);
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(59, 96, 100, 0.14);
+}
+
+/* Invalid fields show an error style after validation is triggered. */
+.form-styling-page .form-field input:invalid:not(:placeholder-shown),
+.form-styling-page .form-field textarea:invalid:not(:placeholder-shown),
+.form-styling-page .form-field select:invalid {
+    border-color: #b42318;
+    background-color: #fffafa;
+}
+
+.form-styling-page .form-field input:invalid:not(:placeholder-shown):focus,
+.form-styling-page .form-field textarea:invalid:not(:placeholder-shown):focus {
+    box-shadow: 0 0 0 4px rgba(180, 35, 24, 0.12);
+}
+
+.form-styling-page .field-hint {
+    margin: 0;
+    color: #617775;
+    font-size: 0.88rem;
+}
+
+.form-styling-page .form-submit {
+    justify-self: start;
+    padding: 12px 24px;
+    border: 2px solid rgb(59, 96, 100);
+    border-radius: 8px;
+    background-color: rgb(59, 96, 100);
+    color: #ffffff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease,
+                transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-styling-page .form-submit:hover {
+    background-color: rgb(242, 143, 59);
+    color: rgb(59, 96, 100);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(59, 96, 100, 0.16);
+}
+
+.form-styling-page .form-submit:focus-visible {
+    outline: 3px solid rgb(242, 143, 59);
+    outline-offset: 4px;
+}
+
+.form-styling-page .form-note {
+    margin: 0;
+    color: #617775;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .form-styling-page {
+        padding: 16px 12px;
+    }
+
+    .form-styling-page .form-wrapper {
+        padding: 22px 18px;
+        border-radius: 12px;
+    }
+
+    .form-styling-page .form-submit {
+        width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .form-styling-page .form-field input,
+    .form-styling-page .form-field textarea,
+    .form-styling-page .form-field select,
+    .form-styling-page .form-submit {
+        transition: none;
+    }
+}
+
+
+/* =========================================================
+   DAY 5: RESPONSIVE FOOTER DESIGN
+   Body class: footer-design-page
+   Four desktop columns, two tablet columns, one mobile column.
+   ========================================================= */
+
+.footer-design-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f8f3;
+    color: rgb(59, 96, 100);
+}
+
+.footer-design-page .footer-demo-main {
+    flex: 1;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 24px;
+}
+
+.footer-design-page .footer-demo-main h1 {
+    margin-bottom: 16px;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.footer-design-page .footer-demo-main p {
+    max-width: 680px;
+}
+
+.footer-design-page .site-footer {
+    margin-top: auto;
+    padding: 48px 32px 0;
+    border-top: 4px solid rgb(242, 143, 59);
+    background-color: rgb(59, 96, 100);
+    color: #ffffff;
+}
+
+.footer-design-page .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+}
+
+.footer-design-page .footer-column {
+    min-width: 0;
+}
+
+.footer-design-page .footer-column h2 {
+    margin-bottom: 14px;
+    color: rgb(242, 143, 59);
+    font-size: 1.15rem;
+}
+
+.footer-design-page .footer-column p {
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.footer-design-page .footer-links,
+.footer-design-page .footer-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-design-page .footer-column a {
+    display: inline-block;
+    margin: 0;
+    color: #ffffff;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    transition: color 0.2s ease;
+}
+
+.footer-design-page .footer-column a:hover {
+    color: rgb(242, 143, 59);
+    text-decoration: underline;
+}
+
+.footer-design-page .footer-column a:focus-visible {
+    outline: 2px solid rgb(242, 143, 59);
+    outline-offset: 4px;
+}
+
+.footer-design-page .footer-bottom {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: center;
+}
+
+.footer-design-page .footer-bottom p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 0.92rem;
+}
+
+@media (max-width: 1023px) {
+    .footer-design-page .footer-columns {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 28px 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-design-page .site-footer {
+        padding: 32px 20px 0;
+    }
+
+    .footer-design-page .footer-columns {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+        padding-bottom: 28px;
+    }
+
+    .footer-design-page .footer-demo-main {
+        padding: 40px 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .footer-design-page .footer-column a {
+        transition: none;
+    }
+}
+
+
+/* ========================================
+   CONTACT PAGE — FORM STYLING
+   ======================================== */
+
+.contact-page main {
+    width: calc(100% - 32px);
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+.contact-page main > section {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.contact-page main h2 {
+    margin: 0 0 24px;
+    color: #222;
+    font-size: 1.6rem;
+}
+
+/* Keep the form elements evenly spaced */
+.contact-page form {
+    display: grid;
+    gap: 24px;
+    width: 100%;
+}
+
+/* Fieldset layout */
+.contact-page form fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    min-width: 0;
+    margin: 0;
+    padding: 24px;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+}
+
+/* Legends */
+.contact-page form legend {
+    padding: 0 10px;
+    font-weight: 700;
+    color: #253b59;
+}
+
+/* Remove default paragraph spacing inside the form */
+.contact-page form fieldset p {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+    margin: 0;
+}
+
+/* Labels */
+.contact-page form label {
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+/* Text inputs and dropdown */
+.contact-page form input:not([type="checkbox"]),
+.contact-page form select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid #cbd2dc;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #222;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+/* Keyboard focus */
+.contact-page form input:focus,
+.contact-page form select:focus,
+.contact-page form textarea:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+    border-color: #2563eb;
+}
+
+/* Message fieldset: stack fields vertically */
+.contact-page form fieldset:nth-of-type(2) {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+/* Message textarea */
+.contact-page form textarea {
+    display: block;
+    width: 100%;
+    min-height: 180px;
+    padding: 12px;
+    border: 1px solid #cbd2dc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font: inherit;
+    line-height: 1.6;
+    resize: vertical;
+}
+
+/* Checkbox: keep its label and box together */
+.contact-page form fieldset:nth-of-type(2) p:last-child {
+    display: block;
+}
+
+.contact-page form fieldset:nth-of-type(2) p:last-child label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contact-page form input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    flex-shrink: 0;
+    accent-color: #2563eb;
+}
+
+/* Submit button */
+.contact-page form button[type="submit"] {
+    justify-self: start;
+    min-width: 140px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease,
+                transform 0.2s ease;
+}
+
+.contact-page form button[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+.contact-page form button[type="submit"]:active {
+    transform: translateY(1px);
+}
+
+/* Responsive layout for phones and small screens */
+@media (max-width: 600px) {
+    .contact-page main {
+        width: calc(100% - 20px);
+        margin: 20px auto;
+    }
+
+    .contact-page main > section {
+        padding: 20px 14px;
+    }
+
+    .contact-page form fieldset {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 20px 14px;
+        gap: 18px;
+    }
+
+    .contact-page form button[type="submit"] {
+        width: 100%;
+    }
+}
